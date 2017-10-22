@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  font-family: sans-serif;
+  width: 30%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+#connection {
+  font: 20px
+  font: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  vertical-align: middle;
+  color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+}
+
+#connection.online {
+  background-color: green;
+}
+
+#connection.offline {
+  background-color: red;
+}
